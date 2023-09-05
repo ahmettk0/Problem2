@@ -41,10 +41,10 @@ class Result {
 		}
 		
 		for (int i = 0; i < wolfIdNumbers.length; i++) {
-            if (wolfIdNumbers[i] == maxFrequency ) {
-                return i + 1;  // girdiler 1'den başladığı için i+1 döndürüyoruz
-            }
-        }
+	            if (wolfIdNumbers[i] == maxFrequency ) {
+	                return i + 1;  // girdiler 1'den başladığı için i+1 döndürüyoruz
+	            }
+        	}
 		*/
 		
 		return resultWolfID;
